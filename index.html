@@ -79,83 +79,107 @@
        <!-- end hero-->
        
        <!-- "what we do" section-->
-       <section id="what-we-do">
-           <h2>What We Do</h2>
+       <section id="what-we-do" class="intro">
+           <h2 class="section-title primary-border">What We Do</h2>
            <p>
                Here is a paragraph on what we do.
             </p>
         </section>
 
         <!-- "what you do" section -->
-       <section id="what-you-do">
-           <h2>What You Do</h2>
+       <section id="what-you-do" class="steps">
+           <h2 class="section-title primary-border">What You Do</h2>
            
            <div>
                 <!-- insert logo image-->    
                 <img src="./assets/images/step-1.svg" alt="this is a decorative image"/>
-                <h3>Step 1: Fill Out the Form Above.</h3>
+                <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
                 <p>You're already here, so why not?</p>     
            </div>
 
            <div>
                 <!-- insert logo image-->   
                 <img src="./assets/images/step-2.svg" alt="this is a decorative image"/>    
-                <h3>Step 2: Consult With One of Our Trainers</h3>
+                <h3>Step 2: <span>Consult With One of Our Trainers</span></h3>
                 <p>Are you here to build muscle, lose weight, or just feel good?</p>
             </div>
         
             <div>
                 <!-- insert logo image-->
                 <img src="./assets/images/step-3.svg" alt="this is a decorative image"/>
-                <h3>Step 3: Get Running.</h3>
+                <h3>Step 3: <span>Running.</span></h3>
                 <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
            </div>
 
            <div>
                 <!-- insert logo image-->
                 <img src="./assets/images/step-4.svg" alt="this is a decorative image"/>
-                <h3>Step 4: See Results.</h3>
+                <h3>Step 4: <span>See Results.</span></h3>
                 <p>Bi-weekly check-ins with your trainer will keep you focused.</p>
             </div>
        </section>
 
        <!-- "meet the trainers" section-->
-       <section id="your-trainers">
-           <h2>Meet the Trainers</h2>
-           <!-- image of Aaron -->
-           <h3>Aaron Stephens</h3>
-           <strong>Speed / Strength</strong>
-           <p>Bio paragraph about Aarron here.</p>
+       <section id="your-trainers" class="trainers">
+           <h2 class="section-title primary-border">Meet the Trainers</h2>
+          
+           <!-- Aaron -->
+            <article class="trainer">
+                <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
+                <div class="trainer-bio text-left">
+                    <h3>Arron Stephens</h3>
+                    <h4>Speed / Strength</h4>
+                    <p>Bio paragraph about Aarron here.</p>
+                </div>
+            </article>
 
-            <h3>Joanna Gill</h3>
-            <!--image of Joanna-->
-            <strong>Endurance</strong>
-            <P>Bio paragraph about Joanna here.</P>
+            <!-- Joanna -->
+            <article class="trainer">
+                <div class="trainer-bio text-right">
+                    <h3>Joanna Gill</h3>
+                    <h4>Endurance</h4>
+                    <p>Bio paragraph about Joanna here.</p>
+                </div>
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
+            </article>
 
-            <!--image of Harry-->
-            <h3>Harry "The Headband" Smith</h3>
-            <strong>Strength</strong>
-            <p>Bio paragraph about Harry here.</p>
+            <!--Harry-->
+            <article class="trainer">
+                <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights"/>
+                <div class="trainer-bio text-left">
+                    <h3>Harry "the Headband" Smith</h3>
+                    <h4>Strength</h4>
+                    <p>Bio paragraph about Harry here.</p>
+                </div>
+            </article>
        </section>
 
        <!-- "reach out" section -->
-       <section id="reach-out">
-           <h2>Reach Out</h2>
-           <!-- image (&link?) of map-->
-
-           <h3>Run Buddy</h3>
-           <p>Any questions or concerns before signing up?
-               <br>
-               Let us know and we'll be happy to talk to you!
-            </p>
-
-           <!-- Contanct info-->
-           <i>55 Main Street <br>
-              Some Twon, CA <br>
-              12345 <br>
-              P: 555.RUN.BUDZ (555.786.2839) <br>
-              E: <a href="info@runbuddy.io">info@runbuddy.io</a>
-            </i>
+       <section id="reach-out" class="contact">
+           <h2 class="section-title secondary-border">Reach Out</h2>
+           <div class="contact-info">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.294263869782!2d-93.37522179999999!3d44.937685599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f620893f705103%3A0xb6818b5095780563!2s7500%20MN-7%2C%20St%20Louis%20Park%2C%20MN%2055426!5e0!3m2!1sen!2sus!4v1638050328297!5m2!1sen!2sus">
+               width="400" 
+               height="400" 
+               style="border:0;" 
+               allowfullscreen="" 
+               loading="lazy">
+            </iframe>
+            <div>
+                <h3>Run Buddy</h3>
+                <p>
+                    Any questions or concerns before signing up?
+                    <br>
+                    Let us know and we'll be happy to talk to you!
+                </p>
+                <address>
+                    55 Main Street <br/>
+                    Some Town, CA <br/>
+                    P: 555.RUN.BUDZ (555.786.2839) <br>
+                    E: <a href="info@runbuddy.io">info@runbuddy.io</a>
+                </address>
+             </div>
+           </div>
        </section>
 
        <!-- footer -->
